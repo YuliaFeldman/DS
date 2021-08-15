@@ -53,3 +53,7 @@ def get_results():
     :return: response status 200. The response is the total profit
     """
     return str(inventory.get_total_profit())
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
