@@ -110,7 +110,6 @@ class TestCasePositiveResult(unittest.TestCase):
         self.assertEqual(response.data, b'6100')
 
 
-
 if __name__ == '__main__':
     unittest.main()
 
